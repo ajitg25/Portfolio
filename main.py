@@ -13,10 +13,10 @@ st.set_page_config(layout="wide",page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 resume_file = current_dir / "assets" / "AjitGupta.pdf"
 css_file = current_dir / "styles" / "main.css"
-EMAIL = "gpranshu482@email.com"
+EMAIL = "ajitg131@email.com"
 
 SOCIAL_MEDIA = {
-    "LinkedIn": "https://www.linkedin.com/in/ajit-gupta-35b312202/",
+    "LinkedIn": "https://www.linkedin.com/in/ajit-gupta25/",
     "GitHub": "https://github.com/ajitg25",
     "LeetCode": "https://leetcode.com/ajitg131/",
     "CodeForces": "https://codeforces.com/profile/ajit_25",
@@ -97,7 +97,7 @@ Here's a glimpse of what I bring to the tech table:
 
 💻 Code Conjurer
 
-🔧 Problem-Solving Sorcerer
+🔧 Problem-Solving C++ Sorcerer
 
 🎨 Art of Visualization
 
@@ -112,8 +112,7 @@ So, let's embark on a magical journey together and witness the wonders we can cr
         st.header('Work Experiences :')
         st.write("##")
         st.subheader("""
-►SDE Intern
-    -Internship @ Hinge Health
+►SDE Intern @ Hinge Health
     -Time Period : Aug 2023 - PRESENT 
     -Bengaluru, Karnataka, India · Remote
     -Working as a ML engineer intern.
@@ -121,8 +120,7 @@ So, let's embark on a magical journey together and witness the wonders we can cr
         st.write("##")
         st.write("##")
         st.subheader("""
-►R&D Intern
-    -Internship @  SAMSUNG PRISM
+►R&D Intern @  SAMSUNG PRISM
     -Time Period : Dec 2022 - Jun 2023
     -Bengaluru, Karnataka, India · Hybrid
     - Developed a machine learning model to predict the best WiFi access point and exposed it as an API using Flask.
@@ -131,8 +129,7 @@ So, let's embark on a magical journey together and witness the wonders we can cr
         st.write("##")
         st.write("##")
         st.subheader("""
-►ML Intern
-    -Internship @ G-KnowMe 
+►ML Intern @ G-KnowMe 
     -Time Period : Nov 2022-Dec 2022
     -Bengaluru, Karnataka, India · Hybrid
     -Developed an OCR module using OpenCV and Pytesseract to accurately extract medical report details, with a
@@ -142,8 +139,7 @@ So, let's embark on a magical journey together and witness the wonders we can cr
         st.write("##")
         st.write("##")
         st.subheader("""
-►R&D Intern
-    -Internship @ Dassault Systemes La Foundation
+►R&D Intern @ Dassault Systemes La Foundation
     -Time Period : Mar 2022-Aug 2022
     -Bengaluru, Karnataka, India · Hybrid
     - Explored and compared different YOLO models and experimented with a CNN-based approach in a project aimed
@@ -168,13 +164,13 @@ if selected == 'Projects':
     with st.container():
         st.header('MY Projects')
         st.write('##')
-        st.subheader(f"[🏆 Thera-Buddy](https://github.com/pranshugupta01/CareConnect)")
-        st.write(f"[Developed an neural network model which predicts the suicidal/depressing nature and deployed the model on Flask API.Developed a chrome extension which tracks user keyboard input in the browser and analyzes the text using the Flask API.A chat-bot powered by dialogflow appears for depressed people.](https://github.com/pranshugupta01/CareConnect)")
+        st.subheader(f"[🏆 Thera-Buddy](https://github.com/ajitg25/Thera-Buddy)")
+        st.write(f"[Developed an neural network model which predicts the suicidal/depressing nature and deployed the model on Flask API.Developed a chrome extension which tracks user keyboard input in the browser and analyzes the text using the Flask API.A chat-bot powered by dialogflow appears for depressed people.](https://github.com/ajitg25/Thera-Buddy)")
         
         st.write('##')
         
         st.subheader(f"[🏆 PharmaBot (e-yantra,IITB)](https://github.com/ayushsh314/eyrc22_PB_1976)")
-        st.write(f"[Implemented OpenCV to recognize roads, start and end points, and dynamically directed the delivery of unique packages to their respective destinations in a project. Utilized CoppeliaSim as the simulation environment for testing and evaluating the project.](https://github.com/pranshugupta01/SecureProX)")
+        st.write(f"[Implemented OpenCV to recognize roads, start and end points, and dynamically directed the delivery of unique packages to their respective destinations in a project. Utilized CoppeliaSim as the simulation environment for testing and evaluating the project.](https://github.com/ayushsh314/eyrc22_PB_1976)")
         
         st.write('##')
 
@@ -184,7 +180,7 @@ if selected=='Contact':
     st.write('##')
     
     contact_form="""
-  <form target="_blank" action="https://formsubmit.co/gpranshu482@gmail.com" method="POST">
+  <form target="_blank" action="https://formsubmit.co/ajitg131@gmail.com" method="POST">
      <input type="text" name="name" class="form-control" placeholder="Enter Your Full Name"  required>
      
      <input type="email" name="email" class="form-control" placeholder="Enter Your Email Address"  required>   
