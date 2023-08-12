@@ -144,8 +144,7 @@ So, let's embark on a magical journey together and witness the wonders we can cr
     -Bengaluru, Karnataka, India · Hybrid
     - Explored and compared different YOLO models and experimented with a CNN-based approach in a project aimed
         at optimizing object detection performance.
-    -Developed and deployed models on Raspberry Pi for shrimp identification and disease prediction, enabling
-real-time decision-making in aquaculture.
+    -Developed and deployed models on Raspberry Pi for shrimp identification and disease prediction, enabling real-time decision-making in aquaculture.
                      """)
     st.write("---")  
     st.write("---") 
