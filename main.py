@@ -112,10 +112,20 @@ So, let's embark on a magical journey together and witness the wonders we can cr
         st.header('Work Experiences :')
         st.write("##")
         st.subheader("""
-►SDE Intern @ Hinge Health
-    -Time Period : Aug 2023 - PRESENT 
+►SDE @ Hinge Health
+    -Time Period : July 2024 - Ongoing
     -Bengaluru, Karnataka, India · Remote
-    -Working as a ML engineer intern.
+    - Built and optimized PySpark + Delta Live Tables (DLT) pipelines to transform data from bronze to gold layers and integrate it with Iterable, using Airflow as the orchestrator.
+    - Developed and maintained a TypeScript service built on Node.js, subscribing to Kafka topics to process user events and update Iterable for personalized marketing automation.
+                     """)  
+        st.write("##")
+        st.write("##")
+        st.subheader("""
+►SDE Intern @ Hinge Health
+    -Time Period : Aug 2023 - June 2024
+    -Bengaluru, Karnataka, India · Remote
+    - Contributed to the development and optimization of internal service, enabling scalable batch processing of 3D human pose estimation on videos in the cloud.
+    - Designed and deployed modular CloudFormation Templates (CFTs), reducing AWS infrastructure setup time from 3 hours to 15 minutes.
                      """)  
         st.write("##")
         st.write("##")
@@ -163,6 +173,11 @@ if selected == 'Projects':
     with st.container():
         st.header('MY Projects')
         st.write('##')
+        st.subheader(f"[🏆 MultiDB Executer](https://github.com/ajitg25/)")
+        st.write(f"[Developed a secure multi-database migration tool using NestJS and TypeScript, supporting PostgreSQL, MySQL, and BigQuery with RBAC and encrypted credential management. Designed a scalable microservice architecture with secure JWT authentication, metadata tracking, query history management, and comprehensive error handling across multiple database systems.](https://github.com/ajitg25/MultiDB-Executer)")
+        
+        st.write('##')
+        
         st.subheader(f"[🏆 Thera-Buddy](https://github.com/ajitg25/Thera-Buddy)")
         st.write(f"[Developed an neural network model which predicts the suicidal/depressing nature and deployed the model on Flask API.Developed a chrome extension which tracks user keyboard input in the browser and analyzes the text using the Flask API.A chat-bot powered by dialogflow appears for depressed people.](https://github.com/ajitg25/Thera-Buddy)")
         
